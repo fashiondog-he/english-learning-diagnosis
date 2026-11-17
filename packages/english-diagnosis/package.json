@@ -1,0 +1,31 @@
+{
+  "name": "dsh-english-diagnosis",
+  "version": "0.3.0",
+  "description": "Facade tool for diagnosing L1-transfer (Chinglish) traces in English writing, with evidence-backed findings. Mock rule set, stage 1.",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./core": "./lib/core.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.mjs",
+    "lib/core.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "SKILL.md",
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": "0.2.2-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {}
+}

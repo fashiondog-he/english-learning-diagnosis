@@ -1,0 +1,6 @@
+# Local runtime data — never publish
+.demo-home/
+node_modules/
+
+# Test artifacts — reproducible, not part of the source
+demo/

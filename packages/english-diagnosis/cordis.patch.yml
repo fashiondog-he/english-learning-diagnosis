@@ -1,0 +1,7 @@
+# dsh-english-diagnosis bundle patch.
+# One insert row only: this bundle adds exactly one Facade tool. It never mounts
+# dsh-mcp-client, never changes sandbox or approval settings, and never
+# registers a second model-facing tool.
+- insert:
+    - id: english-diagnosis
+      name: dsh-english-diagnosis
